@@ -1,0 +1,112 @@
+/* resources/views/auth/styles.css */
+
+/* Resetando as margens e o padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal de login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Caixa de login */
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Título do formulário */
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilizando os inputs */
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.textbox input:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+/* Botão de login */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Rodapé */
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para a exibição de erros */
+.alert {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.alert ul {
+    list-style: none;
+    padding: 0;
+}
+
+.alert ul li {
+    margin-bottom: 5px;
+}
